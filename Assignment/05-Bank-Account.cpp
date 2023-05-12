@@ -1,8 +1,10 @@
+//WAP To Define A Class To Represent The Bank Account
+
 #include<iostream>
-using namespace std;
-class bank
+using namespace std; // Using For Standard Output
+class bank // Class Name
 {
-    int acc, bal;
+    int acc, bal; // Variable For Store The Value
     char nm[20], type[20];
 
 public:
