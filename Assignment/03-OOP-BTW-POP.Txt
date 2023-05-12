@@ -1,0 +1,11 @@
+Q3. Diffrence Between OOP And POP..
+
+OOP:
+-> OOP Means Object Oriented Programing
+-> OOP Works Bottom To Top
+-> OOP Provides High Security
+
+POP:
+-> POP Means Procedure Oriented Programming
+-> POP Works Top To Bottom
+-> POP Provides Less Security Then OOP

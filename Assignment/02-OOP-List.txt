@@ -1,0 +1,26 @@
+Q2. WHAT IS OOP.? lIST OOP CONCEPT..
+
+Full Form OPP Is OBJECT ORIENTED PROGRAMMING. 
+OOP Provides High Security Then Other Language..
+
+// LIST OF OOP CONCEPT..
+
+    1.Class
+        * Blue print of the Object or
+        Class is a collection of the object
+
+    2.Object
+        * Object is a instance of the Class
+
+    3.Inheritance
+        * Reusability of Class
+
+    4.Abstraction
+        * Hide the background detail which was unneccery for the users
+
+    5.Encapsulation
+        * Wrapping up the data
+        
+    6.Polymorphism
+        * One name many form
+
