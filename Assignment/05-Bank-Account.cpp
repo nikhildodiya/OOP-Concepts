@@ -1,15 +1,16 @@
-//WAP To Define A Class To Represent The Bank Account
+// DEFINE A CLASS TO REPRESENT A BANK ACCOUNT..
 
 #include<iostream>
-using namespace std; // Using For Standard Output
-class bank // Class Name
+using namespace std; // USING FOR STANDARD OUTPUT
+class bank // CLASS NAME
 {
-    int acc, bal; // Variable For Store The Value
-    char nm[20], type[20];
+    int acc, bal; // VARIABLE FOR STORE THE VALUE 
+    char nm[50], type[50];
 
 public:
     int getdata()
     {
+        // PASS THE MSG TO TAKE USER INPUT
         cout<<"Enter Depositer Name : ";
         cin>>nm;
         cout<<"Enter Account Number : ";
@@ -23,6 +24,7 @@ public:
 public:
     int showdata()
     {
+        // USER'S OUTPUT
         cout<<"\n_____________________________\n";
         cout<<"\ndeposite name is = "<<nm;
         cout<<"\ndepositer Account No is = "<<acc;
@@ -40,16 +42,18 @@ public:
         cout<<"Withdraw Amount : ";
         cin>>with;
 
-        balance = bal + depo;
+        balance = bal + depo; // CALCULATION FOR DEPOSITED BALANCE
         cout<<"Your Balance After Deposite "<< balance;
     
-        withdrawl = bal - with;
+        withdrawl = bal - with; // CALCULATION FOR WITHDRAWL BALANCE
         cout<<"\nYour Balance After Withdrawl "<<withdrawl;
     
         cout<<"\n_____________________________\n";
         
-        left = balance - with;
+        left = balance - with; // CALCULATION FOR TOTAL BALANCE
         cout<<endl<<nm <<" Your balance is "<<left;
+        cout<<"\n_____________________________\n";
+        cout<<endl<<nm<<" Thank Your For Choosing Our Service....";
         return 0;
     }
 };    
